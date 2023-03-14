@@ -1,0 +1,42 @@
+body{
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 45vw;
+    height: 70vh;
+    background-color: rgba(156, 140, 140, 0.603);
+    text-align: center;
+    position: relative;
+    top: 100px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px black;
+    transition: all 1s;
+}
+
+#time{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 90px;
+    color: transparent;
+    text-shadow: 2px 2px 0px rgba(16, 1, 1, 0.877), -2px -3px 0px rgb(58, 62, 58);
+}
+
+#date{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    text-shadow: 3px 3px 0px darkslategray;
+}
+
+#day{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 0px darkslategray;
+}
+
+#container:hover{
+    box-shadow: 10px 10px 0px darkorchid,-10px -10px 0px darkred,-10px 10px darkblue,10px -10px 0px darkgreen;
+}
